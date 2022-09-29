@@ -60,7 +60,7 @@ nav {
 
 .menu {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
 }
