@@ -212,8 +212,31 @@ section {
   border-radius: 1rem 1rem 0 0;
 }
 
+.proj-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .proj-title h4 {
   color: var(--primary-font-color);
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a {
+  color: var(--primary-bg-color);
+  text-decoration: none;
+  background-color: var(--primary-font-color);
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 4px;
 }
 
 footer {
